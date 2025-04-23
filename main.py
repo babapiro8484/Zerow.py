@@ -592,4 +592,4 @@ def serper(cit, datanya):
             result = response.json()
             return result
         except ValueError:
-            return {"status": False, "message": f"Invalid JSON re
+            return {"status": False, "message": f"Invalid JSON
